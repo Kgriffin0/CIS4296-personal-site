@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Ken Griffin</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Copperplate', Fantasy;
             scroll-behavior: smooth;
         }
 
@@ -80,11 +80,11 @@
     </style>
 </head>
 
-<body>
+<body style="background-color: gray;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Ken Griffin<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -97,40 +97,30 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#games">Recently Played</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" style="background-image: url('images/DnDbackground.jpg'); background-repeat: no-repeat; background-attachment: local;
+        background-size: 100% 100%;" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Ken!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University.</h5>
+            <h5 class="display-5 mx-auto faded text-center">
+                I'm an Information Science & Technology Student at Temple
+                University.
+            </h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
-
-            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
-
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
-
+            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top" title="C#" /></div>
+            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top" title="Java" /></div>
+            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top" title="ASP.NET" /></div>
+            <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top" title="Microsoft SQL Server" /></div>
         </div>
         <div class="row my-4">
             <div class="col">
@@ -140,57 +130,68 @@
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
             <div class="col">
+                <a href="#games"><button type="button" class="btn btn-outline">Recently Played</button></a>
+            </div>
+            <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+            <a href="#projects" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Projects"></i>
+            </a>
+        </div>
 
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" style="background-color: lightgray;" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4">Most of my projects have been focused on making games.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Checkers</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">
+                Built in C#, Had a lot of fun with this one. I used calculations of the board to tell it
+                where player pieces were and what were legal and illegal moves. I also added in a mechanic where if multiple pieces
+                could be jumped a timer would pop up so the player who jumped the first piece could then jump another if they made a move in time,
+                if they could jump another piece after that the timer would reset and they can keep making moves over and over, as long as they were legal moves
+                and within the time limit.
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Dungeon explorer with rock paper sissors battle system</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">
+                Made in java, was just a map made up of symbols like | and # depicting walls and paths respectively.
+                the player was also a symbol that they could control and move around the map to gather items and run into enemys. the goal of the game was to find a key
+                somewhere on the map and enter a boss room. the battles were very simple rock, paper, scissors decisions. items found could also effect battle.
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Visual Novel with a battle system</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">
+                Also made in java, this one was more fleshed out with images I made, which is why it will never see the light of day as
+                long as I live. the concept of this game was to read through text prompts and make decisions throughout the story. depending on the choices it would change
+                what the character was doing and how they developed. As the character developed they would unlock new skills during battle, earn money, buy armor/weapons, and recuit
+                party members.
+            </p>
         </div>
         <div class="row mt-5 next">
-            <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+            <a href="#courses" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Courses"></i>
+            </a>
+        </div>
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" style="background-color: lightgray;" id="courses">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
@@ -222,39 +223,116 @@
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
+            <a href="#contact" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Contact"></i>
+            </a>
+        </div>
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" style="background-color: lightgray;" id="games">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Recently Played Games</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">I try to swap from game genre to game genre to keep things interesting!</h5>
+        </div>
+        
+        <div class="row g-3 align-items-center">
+            <div class="col-md-4">
+                <img src="images/newworld.jpg" class="rounded mx-auto d-block" style="width: 128px; height: 128px;">
+                <p style="text-align: center;">New World</p>
+            </div>
+            <div class="col-md-3">
+                <p>Genres: MMO, Action, RPG, PVP/PVE</p>
+            </div>
+            <div class="col-md-5">
+                <p>
+                    Desciption: A third person RPG where the weapon you choose to use determins your play-style. As you use weapons
+                    you will unlock 3 activatable skills along with 17 passive skills. The core of the game is focused on pvp but it does have
+                    a main quest line that is avalible.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/tales.jpg" class="rounded mx-auto d-block" style="width: 128px; height: 128px;">
+                <p style="text-align: center;">New World</p>
+            </div>
+            <div class="col-md-3">
+                <p>Genres: Single Player, Fantasy, Action, JRPG</p>
+            </div>
+            <div class="col-md-5">
+                <p>
+                    Description: An open world with a linear story and in an anime artstyle. No fighting takes place in the open world however there are
+                    monster in some of the areas that if you run into will force you into a battle arena stage. If you're familiar with the tales games then 
+                    this should feel very familiar, all the usual arts are there along with hundreds of skitts to find. The only complaint I have is the story tends 
+                    to have cutscenes tend to overstay there welcome, other then that this one I give a hard recommendation.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/rimworld.jpg" class="rounded mx-auto d-block" style="width: 128px; height: 128px;">
+                <p style="text-align: center;">RimWorld</p>
+            </div>
+            <div class="col-md-3">
+                <p>Genres: Single Player, RTS, Colony Sim, Survival</p>
+            </div>
+            <div class="col-md-5">
+                <p>
+                    Desciption: I'm relativly new to these sorts of games and that made obvious with how I play RimWorld, I've never had a successful run yet
+                    and more often then not I'm left wondering how my colonists actully die. RimWorld is an unforgiving top down stratagy game where you try to build a 
+                    successful colony from scratch to successful space travel. You can develop trade with other colonies, develop weapons and armor, develop a religion, fight of invader
+                   be they human or not. I look forward to being able to understand how to deal with infestations.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/grail.jpg" class="rounded mx-auto d-block" style="width: 128px; height: 128px;">
+                <p style="text-align: center;">Tainted Grail</p>
+            </div>
+            <div class="col-md-3">
+                <p>Genres: Rougelike, Dark Fantasy, Turn Based, Deckbuilder</p>
+            </div>
+            <div class="col-md-5">
+                <p>
+                    Desciption: This was kind of an impulse buy but I'm glad I picked it up. Tainted Grail is a Rougelike, you're going to make multiple plathroughs of the game 
+                    to unlock more of it. As you playthrough you will come across others on your runs with storys you can interact with. As you resolve more of there storys
+                    you will unlock more cards that will change how you might want to build your deck. These cards are your life blood in battle and often the more you sacrifice to
+                    obtain them the stronger they will be.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5 next">
+            <a href="#contact" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Contact"></i>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center flex-column align-items-center" style="background-color: darkgray;" id="contact">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">I might bite.</h5>
         </div>
-        <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
-
+        <div class="row my-2 contacticon">
+            <a href="mailto:kgriff88@gmail.com" class="col mx-3">
+                <i class="fas fa-envelope-square"
+                   data-toggle="tooltip" data-placement="top" title="Email"></i>
+            </a>
         </div>
         <div class="row mt-5">
-            <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+            <a href="#landing"><button type="button" class="btn btn-outline mb-5">Return to Top</button></a>
         </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script>
         $(function () {
